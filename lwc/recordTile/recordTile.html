@@ -1,0 +1,23 @@
+<template>
+    <template if:true={record}>
+        <lightning-card variant="Narrow" title={record.Name} icon-name="standard:story">
+            <div slot="actions">
+                    <div>
+                        <div title="Add to Favorites" onclick={handleChange} class={buttonColor}
+                            style="height: 20px;width: 20px;border: 1px solid black;margin-right : 5px; "></div>
+                        <span class="slds-assistive-text">Add to Favorites</span>
+                    </div>
+            </div>
+            <div slot="footer">
+                <lightning-button variant="base" label="Details" title="View Details" onclick={handleClick} class="slds-m-left_x-small">
+                </lightning-button>
+            </div>
+            <p class="slds-p-horizontal_small"> 
+                {record.Name}
+            </p>
+        </lightning-card>
+    </template>
+    <template if:false={record}>
+        No Records available to show here.
+    </template>
+</template>
