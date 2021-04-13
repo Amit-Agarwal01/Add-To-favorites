@@ -4,6 +4,16 @@ In this repo we have tried to demonstarte how we can build a functionality to ad
 
 We have a requirement where we have a custom Page or an Application where we cannot see the standard Favorites button and we need to add the records to favorite list may be to visit it later. To meet this we can build our own button and an Object to meet the requirements to add the records as favorites.
 
+# Toast to show the records are added succesfully.
+
+![AddTofavFunc](https://user-images.githubusercontent.com/60521717/114542958-2d004b00-9c76-11eb-91d5-f92b1e48cb23.PNG)
+
+
+# Records from different Objects in together in Add To Favorite Object
+  
+![AddToFavRecords](https://user-images.githubusercontent.com/60521717/114542993-38ec0d00-9c76-11eb-96e8-67cfe0267d03.PNG)
+
+
 
 # Salesforce App
 
